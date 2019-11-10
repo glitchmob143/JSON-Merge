@@ -3,8 +3,6 @@
 const express = require('express');
 const readLine = require('readline');
 const fs = require('fs');
-const mergeJSON = require('merge-json');
-const jsonConcat = require('json-concat');
 
 const files=[];
 
@@ -110,7 +108,7 @@ function init()
         //     console.log(err);
         //   });
         // }
-        
+
         })(data);
       }
 
