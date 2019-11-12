@@ -1,6 +1,6 @@
 //jshint esversion : 6
 
-const express = require('express');
+
 const readLine = require('readline');
 const fs = require('fs');
 
